@@ -9,16 +9,22 @@ The Essay Checker allows users to input their essays to obtain word and characte
 3. **Reading Time**: Estimates the average reading time
 4. **Correction**: Automatically capitalizes the first letter of each sentence after a period.
 
-## Considerations
-1. The reading time is based on an average reading speed of 275 words per minute.
-* Source: https://wordcounter.net/
-2. Sentences are split based on the presence of a period followed by a space.
-   * This may not account for all sentence-ending scenarios.
+## Rules
+1. Input Format: The user should input a single block of text. Multi-paragraph essays should be entered as continuous text, with each sentence separated by a period followed by a space.
+2. Sentence Structure: The program expects sentences to end with a period followed by a space. Other punctuation marks (e.g. question marks, exclamation points) may not be properly accounted for in sentence separation.
+3. Sentence Handling Limitations: Sentences are split based on the presence of a period followed by a space.
+    * This may not account for all sentence-ending scenarios.
      * Examples of Scenarios Not Accounted For:
        * Example 1: Abbreviations
          <code>Fruits (e.g. Apples)</code>
        * Example 2: Decimal Points
          <code>The temperature was 23.5 degrees. It was a warm day.</code>
+4. Exit Conditions: The program will exit if the user types <code>no<code/> when asked if they want to check another essay or if they select the exit option <code/>6<code/> from the choice.
+   
+
+## Considerations
+1. The reading time is based on an average reading speed of 275 words per minute.
+* Source: https://wordcounter.net/
 
 ## Execution
 1. **Input**: The user inputs their essay as a single block text.
