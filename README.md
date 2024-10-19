@@ -14,5 +14,5 @@ The Essay Checker allows users to input their essays to obtain word and characte
 * Source: https://wordcounter.net/
 2. Sentences are split based on the presence of a period followed by a space.
 *  This may not account for all sentence-ending scenarios (e.g. abbreviations)
-** Examples of Scenarios Not Accounted For
+  *  Examples of Scenarios Not Accounted For
 
