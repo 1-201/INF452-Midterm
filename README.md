@@ -17,11 +17,11 @@ The Essay Checker allows users to input their essays to obtain word and characte
      * Examples of Scenarios Not Accounted For
        * Example 1: Abbreviations
          ```python
-         text = "Fruits (e.g. Apples)"
+         "Fruits (e.g. Apples)"
          ```
        * Example 2: Decimal Points
          ```python
-         text = "The temperature was 23.5 degrees. It was a warm day."
+         "The temperature was 23.5 degrees. It was a warm day."
          ```
 
 
