@@ -28,9 +28,9 @@ The Essay Checker allows users to input their essays to obtain word and characte
 ## Code Structure
 The program uses two main loops:
 1. Outer Loop:
-* This loop allows the program to run multiple times, enabling users to check different essays without restarting. It continues until the user decides to exit by typing <code>no</code>.
+* This loop allows the program to run multiple times, enabling users to check different essays without restarting. It continues until the user decides to exit by typing <code>no</code>
 2. Inner Loop:
-* This loop handles user input for selecting which statistics to display. It prompts the user for a choice (e.g. all, word count, character count, reading time, corrected essay, exit) and displays the corresponding information based on that choice. This loop continues until the user decides to exit by typing <code>6</code>.
+* This loop handles user input for selecting which statistics to display. It prompts the user for a choice (e.g. all, word count, character count, reading time, corrected essay, exit) and displays the corresponding information based on that choice. This loop continues until the user decides to exit by typing <code>6</code>
 
 
 
