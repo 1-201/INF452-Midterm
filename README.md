@@ -15,20 +15,14 @@ The Essay Checker allows users to input their essays to obtain word and characte
 3. Sentence Handling Limitations: Sentences are split based on the presence of a period followed by a space.
     * This may not account for all sentence-ending scenarios.
      * Examples of Scenarios Not Accounted For:
-       * Example 1: Abbreviations
-         <code>Fruits (e.g. Apples)</code>
-       * Example 2: Decimal Points
-         <code>The temperature was 23.5 degrees. It was a warm day.</code>
+       * Example 1: Abbreviations e.g. Fruits (e.g. Apples)
+       * Example 2: Decimal Points e.g. The temperature was 23.5 degrees. It was a warm day.
 4. Exit Conditions: The program will exit if the user types <code>no</code> when asked if they want to check another essay or if they select the exit option <code/>6</code> from the choice.
    
 ## Considerations
 1. The reading time is based on an average reading speed of 275 words per minute.
 * Source: https://wordcounter.net/
-
-## Execution
-1. **Input**: The user inputs their essay as a single block text.
-2. **Processing**: The program calculates word count and character count, reading time, and corrects sentence capitalization.
-3. **Output**: The user can choose which option to view or exit the program.
+2. Sentences are split based on the presence of a period followed by a space, which may not account for all cases.
 
 ## Code Structure
 The program uses two main loops:
@@ -36,6 +30,59 @@ The program uses two main loops:
 * This loop allows the program to run multiple times, enabling users to check different essays without restarting. It continues until the user decides to exit by typing <code>no</code>
 2. Inner Loop:
 * This loop handles user input for selecting which statistics to display. It prompts the user for a choice (e.g. all, word count, character count, reading time, corrected essay, exit) and displays the corresponding information based on that choice. This loop continues until the user decides to exit by typing <code>6</code>
+
+## How it works
+1. **Input**: The user inputs their essay as a single block text.
+2. **Processing**: The program calculates:
+* Word count
+* Character count
+* Reading time
+* Corrected essay with capitalized sentences
+3. **Output**: The user can choose which option to view or exit the program.
+
+
+## Instruction
+1. Inputting the Essay:
+* The program prompts the user to enter their essay:
+  ```python
+  Please enter your essay:
+  ```
+* The user inputs:
+  ```python
+  The quick brown fox jumps over the lazy dog. this sentence needs correction.
+  ```
+2. Program Processes the Input:
+* The program calculates:
+   * Word count: 13
+   * Character count: 76
+   * Reading time: 3 sec
+   * Corrected essay: The quick brown fox jumps over the lazy dog. This sentence needs correction.
+3. Choosing Output Options:
+* The program displays options for the user:
+```python
+What information would you like to see?
+1. All
+2. Word count
+3. Character count
+4. Reading time
+5. Corrected essay
+6. Exit
+```
+* The user selects an option by entering a number, for example, if the user selects <code>2</code>
+```python
+Word count: 13
+```
+4. Continuing or Exiting:
+* The program continues to loop through these options until the user selects option 6 to exit.
+* If the user selects <code>6</code>, the program asks if the user wants to check another essay:
+```python
+Do you want to check another essay? (yes/no): 
+```
+* If the user types <code>yes</code>, the program returns to the essay input prompt.
+If the user types <code>no</code>, the program will print:
+```python
+Thank you for using the Essay Checker!
+```
 
 
 
