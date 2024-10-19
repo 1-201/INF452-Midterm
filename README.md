@@ -16,13 +16,9 @@ The Essay Checker allows users to input their essays to obtain word and characte
    * This may not account for all sentence-ending scenarios.
      * Examples of Scenarios Not Accounted For
        * Example 1: Abbreviations
-         ```python
          <code>Fruits (e.g. Apples)</code>
-         ```
        * Example 2: Decimal Points
-         ```python
          <code>The temperature was 23.5 degrees. It was a warm day.</code>
-         ```
 
 
 
