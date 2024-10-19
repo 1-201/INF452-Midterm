@@ -13,6 +13,16 @@ The Essay Checker allows users to input their essays to obtain word and characte
 1. The reading time is based on an average reading speed of 275 words per minute.
 * Source: https://wordcounter.net/
 2. Sentences are split based on the presence of a period followed by a space.
-*  This may not account for all sentence-ending scenarios (e.g. abbreviations)
-  *  Examples of Scenarios Not Accounted For
+   * This may not account for all sentence-ending scenarios.
+     * Examples of Scenarios Not Accounted For
+       * Example 1: Abbreviations
+         ```python
+         text = "Fruits (e.g. Apples)"
+         ```
+       * Example 2: Decimal Points
+         ```python
+         text = "The temperature was 23.5 degrees. It was a warm day."
+         ```
+
+
 
