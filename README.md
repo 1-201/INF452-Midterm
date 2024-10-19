@@ -19,9 +19,8 @@ The Essay Checker allows users to input their essays to obtain word and characte
          <code>Fruits (e.g. Apples)</code>
        * Example 2: Decimal Points
          <code>The temperature was 23.5 degrees. It was a warm day.</code>
-4. Exit Conditions: The program will exit if the user types <code>no<code/> when asked if they want to check another essay or if they select the exit option <code/>6<code/> from the choice.
+4. Exit Conditions: The program will exit if the user types <code>no</code> when asked if they want to check another essay or if they select the exit option <code/>6</code> from the choice.
    
-
 ## Considerations
 1. The reading time is based on an average reading speed of 275 words per minute.
 * Source: https://wordcounter.net/
