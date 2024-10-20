@@ -64,30 +64,30 @@ The program uses two main loops:
 ## How it works
 1. **Input**: The user inputs their essay as a single block text.
 2. **Processing**: The program calculates:
-* Word count
-* Character count
-* Reading time
-* Corrected essay with capitalized sentences
+   * Word count
+   * Character count
+   * Reading time
+   * Corrected essay with capitalized sentences
 3. **Output**: The user can choose which option to view or exit the program.
 
 ## Instruction
 1. Inputting the Essay:
-* The program prompts the user to enter their essay:
+   * The program prompts the user to enter their essay:
   ```plaintext
   Please enter your essay:
   ```
-* The user inputs:
+   * The user inputs:
   ```plaintext
   The quick brown fox jumps over the lazy dog. this sentence needs correction.
   ```
 2. Program Processes the Input:
-* The program calculates:
-   * Word count: 13
-   * Character count: 76
-   * Reading time: 3 sec
-   * Corrected essay: The quick brown fox jumps over the lazy dog. This sentence needs correction.
+   * The program calculates:
+      * Word count: 13
+      * Character count: 76
+      * Reading time: 3 sec
+      * Corrected essay: The quick brown fox jumps over the lazy dog. This sentence needs correction.
 3. Choosing Output Options:
-* The program displays options for the user:
+   * The program displays options for the user:
 ```plaintext
 What information would you like to see?
 1. All
@@ -97,13 +97,13 @@ What information would you like to see?
 5. Corrected essay
 6. Exit
 ```
-* The user selects an option by entering a number, for example, if the user selects <code>2</code>
+   * The user selects an option by entering a number, for example, if the user selects <code>2</code>
 ```plaintext
 Word count: 13
 ```
 4. Continuing or Exiting:
-* The program continues to loop through these options until the user selects option 6 to exit.
-* If the user selects <code>6</code>, the program asks if the user wants to check another essay:
+   * The program continues to loop through these options until the user selects option 6 to exit.
+   * If the user selects <code>6</code>, the program asks if the user wants to check another essay:
 ```plaintext
 Do you want to check another essay? (yes/no): 
 ```
@@ -115,11 +115,11 @@ Thank you for using the Essay Checker!
 
 ## Example Run
 ### Example Run 1
-*Input:
+   * Input:
 ```plaintext
 Please enter your essay: This is a sample essay. it includes some sentences.
 ```
-*Output:
+   * Output:
 ```plaintext
 What information would you like to see?
 1. All
@@ -139,11 +139,11 @@ Corrected essay: This is a sample essay. It includes some sentences.
 ```
 
 ### Example Run 2
-* Input
+   * Input
 ```plaintext
 Please enter your essay: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac orci libero. Vestibulum sed porta odio. Integer finibus augue ut elit euismod, et tristique diam congue. Proin ultricies mauris a mauris imperdiet efficitur. Nullam at rutrum justo, vitae tempor nisl. Quisque eget eleifend lacus. In eu lectus sit amet purus maximus ultrices. Ut lacinia imperdiet ligula vel efficitur. Donec tincidunt erat dui, et tristique lacus semper ac. Nullam justo massa, tincidunt ut neque a, porta tristique sem. Sed sagittis sodales dolor a semper. Integer finibus suscipit felis, ac scelerisque nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed ipsum eget sapien semper aliquam. Nam hendrerit justo elit, varius porttitor elit viverra eu. Donec tristique, velit eget consectetur viverra, lectus ex accumsan lectus, quis pharetra mauris urna non ipsum. Morbi vehicula rutrum vehicula. Quisque turpis quam, venenatis vel condimentum vel, mattis non nisi. Curabitur non lorem in ante vulputate gravida ut at nisl. Etiam quis tempor mi. Proin vel vulputate libero. Nam erat lectus, pretium quis justo tincidunt, iaculis sodales mauris. Sed pulvinar velit vel mauris gravida egestas. Nulla ac ante elit. Donec sed odio at massa venenatis ultricies non in neque. Vivamus in justo consequat massa congue luctus. Praesent mollis orci ac risus aliquet, bibendum bibendum sem sollicitudin. Aliquam erat volutpat. Nulla facilisi. Donec malesuada eu lacus at euismod. Duis gravida lacus ut ante bibendum, eget porta ex dapibus. Ut at turpis tristique, scelerisque enim non, ultricies libero. Cras ullamcorper feugiat sapien ut sagittis. Cras id risus ac lacus hendrerit semper. Aliquam vitae urna at nisl imperdiet porta blandit vel neque. Cras in mauris aliquet, ultrices sapien sit amet, semper justo. Curabitur ultrices dapibus ipsum, non maximus eros eleifend et. Proin non dui enim. Nunc tristique consequat est sed dictum. Mauris molestie ex ut augue varius, in scelerisque purus suscipit. Sed semper fringilla nibh vel mattis.
 ```
-*Output:
+   * Output:
 ```plaintext
 What information would you like to see?
 1. All
