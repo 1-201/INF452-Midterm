@@ -17,21 +17,37 @@ The Essay Checker allows users to input their essays to obtain word and characte
      * Examples of Scenarios Not Accounted For:
        * Example 1: Abbreviations e.g. Fruits (e.g. Apples)
        * Example 2: Decimal Points e.g. The temperature was 23.5 degrees. It was a warm day.
-4. The code preserves the original spacing in the sentences.
-   * If you want to remove leading and trailing whitespace from each sentence, add the following line in line 41:
+4. The code removes leading and trailing whitespace from the sentences
+   * If you want to preserve the original spacing in the sentences, remove line 41:
      ```python
-     for sentence in sentences: # Line 40
         sentence = sentence.strip()  # Remove leading/trailing whitespace
      ```
-   * After adding this line, an input like:
+   * An input like:
      ```plaintext
-     This is a sentence.     That has a lot of space.
+     This is a sentence.     that has a lot of space.
      ```
    * will turn into:
      ```plaintext
      This is a sentence. That has a lot of space.
      ```
-5. Exit Conditions: The program will exit if the user types <code>no</code> when asked if they want to check another essay or if they select the exit option <code/>6</code> from the choice.
+5. Capitalization Behaviour: Sentences are split based on the presence of a period followed by a space.
+   * For instance, when the input is:
+     ```plaintext
+     This is a sentence...   that has a lot of space.
+     ```
+   * The output will be:
+     ```plaintext
+     This is a sentence... That has a lot of space.
+   * Conversely, with an input that has extra spaces before a period:
+     ```plaintext
+     This is a sentence  ...that has a lot of space.
+     ```
+   * The output will remain:
+     ```plaintext
+     This is a sentence  ...that has a lot of space.
+     ```
+   * In this case, the input is not split into separate sentences due to the absence of a period followed by a space, resulting in the first word "that" not being capitalized.
+6. Exit Conditions: The program will exit if the user types <code>no</code> when asked if they want to check another essay or if they select the exit option <code/>6</code> from the choice.
    
 ## Considerations
 1. The reading time is based on an average reading speed of 275 words per minute.
