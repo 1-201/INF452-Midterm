@@ -27,7 +27,7 @@ The Essay Checker allows users to input their essays to obtain word and characte
      ```plaintext
      This is a sentence.     That has a lot of space.
      ```
-     *will turn into*:
+   * will turn into:
      ```plaintext
      This is a sentence. That has a lot of space.
      ```
@@ -88,7 +88,7 @@ Word count: 13
 4. Continuing or Exiting:
 * The program continues to loop through these options until the user selects option 6 to exit.
 * If the user selects <code>6</code>, the program asks if the user wants to check another essay:
-````plaintext
+```plaintext
 Do you want to check another essay? (yes/no): 
 ```
 * If the user types <code>yes</code>, the program returns to the essay input prompt.
@@ -102,6 +102,7 @@ Thank you for using the Essay Checker!
 *Input:
 ```plaintext
 Please enter your essay: This is a sample essay. it includes some sentences.
+```
 *Output:
 ```plaintext
 What information would you like to see?
@@ -119,6 +120,7 @@ Enter your choice (1-6): 4
 Reading time: 2 sec
 Enter your choice (1-6): 5
 Corrected essay: This is a sample essay. It includes some sentences.
+```
 
 
 
