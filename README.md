@@ -18,9 +18,10 @@ The Essay Checker allows users to input their essays to obtain word and characte
        * Example 1: Abbreviations e.g. Fruits (e.g. Apples)
        * Example 2: Decimal Points e.g. The temperature was 23.5 degrees. It was a warm day.
 4. The code preserves the original spacing in the sentences.
-   * If you want to remove leading and trailing whitespace from each sentence, add the following line in line 29:
+   * If you want to remove leading and trailing whitespace from each sentence, add the following line in line 41:
      ```python
-     sentence = sentence.strip()  # Remove leading/trailing whitespace
+     for sentence in sentences: # Line 40
+        sentence = sentence.strip()  # Remove leading/trailing whitespace
      ```
    * After adding this line, an input like:
      ```plaintext
@@ -53,15 +54,14 @@ The program uses two main loops:
 * Corrected essay with capitalized sentences
 3. **Output**: The user can choose which option to view or exit the program.
 
-
 ## Instruction
 1. Inputting the Essay:
 * The program prompts the user to enter their essay:
-  ```python
+  ```plaintext
   Please enter your essay:
   ```
 * The user inputs:
-  ```python
+  ```plaintext
   The quick brown fox jumps over the lazy dog. this sentence needs correction.
   ```
 2. Program Processes the Input:
@@ -72,7 +72,7 @@ The program uses two main loops:
    * Corrected essay: The quick brown fox jumps over the lazy dog. This sentence needs correction.
 3. Choosing Output Options:
 * The program displays options for the user:
-```python
+```plaintext
 What information would you like to see?
 1. All
 2. Word count
@@ -82,20 +82,43 @@ What information would you like to see?
 6. Exit
 ```
 * The user selects an option by entering a number, for example, if the user selects <code>2</code>
-```python
+```plaintext
 Word count: 13
 ```
 4. Continuing or Exiting:
 * The program continues to loop through these options until the user selects option 6 to exit.
 * If the user selects <code>6</code>, the program asks if the user wants to check another essay:
-```python
+````plaintext
 Do you want to check another essay? (yes/no): 
 ```
 * If the user types <code>yes</code>, the program returns to the essay input prompt.
 If the user types <code>no</code>, the program will print:
-```python
+```plaintext
 Thank you for using the Essay Checker!
 ```
+
+## Example Run
+### Example Run 1
+*Input:
+```plaintext
+Please enter your essay: This is a sample essay. it includes some sentences.
+*Output:
+```plaintext
+What information would you like to see?
+1. All
+2. Word count
+3. Character count
+4. Reading time
+5. Corrected essay
+6. Exit
+Enter your choice (1-6): 2
+Word count: 9
+Enter your choice (1-6): 3
+Character count: 51
+Enter your choice (1-6): 4
+Reading time: 2 sec
+Enter your choice (1-6): 5
+Corrected essay: This is a sample essay. It includes some sentences.
 
 
 
