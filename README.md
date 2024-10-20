@@ -114,7 +114,7 @@ The program uses two main loops:
       ```
 
 ## Example Run
-### Example Run 1
+1. Example Run 1
    * Input:
       ```plaintext
       This is a sample essay. it includes some sentences.
@@ -138,7 +138,7 @@ The program uses two main loops:
       Corrected essay: This is a sample essay. It includes some sentences.
       ```
 
-### Example Run 2
+2. Example Run 2
    * Input
       ```plaintext
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac orci libero. Vestibulum sed porta odio. Integer finibus augue ut elit euismod, et tristique diam congue. Proin ultricies mauris a mauris imperdiet efficitur. Nullam at rutrum justo, vitae tempor nisl. Quisque eget eleifend lacus. In eu lectus sit amet purus maximus ultrices. Ut lacinia imperdiet ligula vel efficitur. Donec tincidunt erat dui, et tristique lacus semper ac. Nullam justo massa, tincidunt ut neque a, porta tristique sem. Sed sagittis sodales dolor a semper. Integer finibus suscipit felis, ac scelerisque nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed ipsum eget sapien semper aliquam. Nam hendrerit justo elit, varius porttitor elit viverra eu. Donec tristique, velit eget consectetur viverra, lectus ex accumsan lectus, quis pharetra mauris urna non ipsum. Morbi vehicula rutrum vehicula. Quisque turpis quam, venenatis vel condimentum vel, mattis non nisi. Curabitur non lorem in ante vulputate gravida ut at nisl. Etiam quis tempor mi. Proin vel vulputate libero. Nam erat lectus, pretium quis justo tincidunt, iaculis sodales mauris. Sed pulvinar velit vel mauris gravida egestas. Nulla ac ante elit. Donec sed odio at massa venenatis ultricies non in neque. Vivamus in justo consequat massa congue luctus. Praesent mollis orci ac risus aliquet, bibendum bibendum sem sollicitudin. Aliquam erat volutpat. Nulla facilisi. Donec malesuada eu lacus at euismod. Duis gravida lacus ut ante bibendum, eget porta ex dapibus. Ut at turpis tristique, scelerisque enim non, ultricies libero. Cras ullamcorper feugiat sapien ut sagittis. Cras id risus ac lacus hendrerit semper. Aliquam vitae urna at nisl imperdiet porta blandit vel neque. Cras in mauris aliquet, ultrices sapien sit amet, semper justo. Curabitur ultrices dapibus ipsum, non maximus eros eleifend et. Proin non dui enim. Nunc tristique consequat est sed dictum. Mauris molestie ex ut augue varius, in scelerisque purus suscipit. Sed semper fringilla nibh vel mattis.
